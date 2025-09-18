@@ -17,9 +17,8 @@ Một công cụ hỗ trợ nhỏ gọn dành cho người học trên Coursera 
 ## 🛠️ Hướng dẫn sử dụng
 - Tải về project và tiến hành giải nén.
 - Mở Command Prompt tại thư mục vừa giải nén, sau đó chạy lần lượt các lệnh:
-
-> bash
 > npm i
+> 
 > npm run build
 
 - Truy cập vào trang quản lý tiện ích mở rộng của trình duyệt bạn đang dùng:
