@@ -1,0 +1,51 @@
+{
+  "name": "coursera-tool",
+  "displayName": "Coursera Tool - Tool for Coursera",
+  "version": "1.0.5.5",
+  "author": "VyyKa",
+  "description": "The extension helps to skip videos and readings, automatically take tests (when geimini api is attached), automatically submit assignments, automatically grade other people's reviews, get your assignment link so you can share it with others.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "react",
+    "vite",
+    "create-chrome-ext"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:firefox": "vite build --mode firefox",
+    "build:edge": "vite build --mode edge",
+    "preview": "vite preview",
+    "fmt": "prettier --write '**/*.{tsx,ts,json,css,scss,md}'",
+    "zip": "npm run build && node src/zip.js"
+  },
+  "dependencies": {
+    "@mellowtel/module-meucci": "^1.0.0",
+    "@mellowtel/module-pascoli": "^1.0.0",
+    "cheerio": "^1.0.0",
+    "mellowtel": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.5.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.19",
+    "@types/chrome": "^0.0.246",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.20",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^6.0.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  }
+}
