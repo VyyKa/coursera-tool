@@ -14,4 +14,19 @@ Một công cụ hỗ trợ nhỏ gọn dành cho người học trên Coursera 
 - ✅ **Chấm điểm tự động** và chọn điểm cao nhất cho các bài đánh giá từ người học khác.
 - 🤖 **Chuyển đổi** chế độ chấm điểm từ AI sang đánh giá đồng đẳng một cách linh hoạt.
 
+## 🛠️ Hướng dẫn sử dụng
+- Tải về project và tiến hành giải nén.
+- Mở Command Prompt tại thư mục vừa giải nén, sau đó chạy lần lượt các lệnh:
+
+>bash
+npm i
+npm run build
+>
+- Truy cập vào trang quản lý tiện ích mở rộng của trình duyệt bạn đang dùng:
+  Đối với Chrome: chrome://extensions/
+  Đối với Edge: edge://extensions/
+- Kích hoạt chế độ Nhà phát triển (Developer Mode).
+- Nhấn “Tải tiện ích chưa đóng gói” (Load unpacked) và chọn thư mục:
+> ...\coursera\build-production
+
 **Special Thanks**: Cảm ơn bạn github.com/pear104
