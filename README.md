@@ -18,13 +18,13 @@ Một công cụ hỗ trợ nhỏ gọn dành cho người học trên Coursera 
 - Tải về project và tiến hành giải nén.
 - Mở Command Prompt tại thư mục vừa giải nén, sau đó chạy lần lượt các lệnh:
 
->bash
-npm i
-npm run build
->
+> bash
+> npm i
+> npm run build
+
 - Truy cập vào trang quản lý tiện ích mở rộng của trình duyệt bạn đang dùng:
-  Đối với Chrome: chrome://extensions/
-  Đối với Edge: edge://extensions/
+  > Đối với Chrome: chrome://extensions/
+  > Đối với Edge: edge://extensions/
 - Kích hoạt chế độ Nhà phát triển (Developer Mode).
 - Nhấn “Tải tiện ích chưa đóng gói” (Load unpacked) và chọn thư mục:
 > ...\coursera\build-production
