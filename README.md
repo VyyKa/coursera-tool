@@ -24,6 +24,7 @@ Một công cụ hỗ trợ nhỏ gọn dành cho người học trên Coursera 
 
 - Truy cập vào trang quản lý tiện ích mở rộng của trình duyệt bạn đang dùng:
   > Đối với Chrome: chrome://extensions/
+  > 
   > Đối với Edge: edge://extensions/
 - Kích hoạt chế độ Nhà phát triển (Developer Mode).
 - Nhấn “Tải tiện ích chưa đóng gói” (Load unpacked) và chọn thư mục:
